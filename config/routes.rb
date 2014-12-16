@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'first_controller/home'
+  root "first_controller#home"
+  # get 'first_controller/home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
